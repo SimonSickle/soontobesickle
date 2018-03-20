@@ -1,0 +1,9 @@
+/* CSS Document */
+
+img.avitar {
+	width: 150px;
+	height:150px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto 30px;
+}
