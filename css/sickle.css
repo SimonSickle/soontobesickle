@@ -7,3 +7,7 @@ img.avitar {
 	overflow: hidden;
 	margin: 0 auto 30px;
 }
+
+div.avitar {
+	padding: 5%;
+}
