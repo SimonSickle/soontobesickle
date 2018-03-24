@@ -560,9 +560,9 @@
 		$('.gla_music_icon_cont').fadeToggle();	
 	}); 
 
- 	/* Mobile Menu */
-
-	$('.gla_main_menu_content_menu .gla_parent').on("click", function(e){
+	 /* Mobile Menu */
+	 
+	 $('.gla_main_menu_content_menu .gla_parent').on("click", function(e){
 		$(this).find('ul').slideToggle(300);
 	});
 	$('.gla_mobile_menu').on("click", function(e){
@@ -573,8 +573,31 @@
 		$(this).next('.gla_header_search_cont').fadeToggle();
 	});
 
-	
-	
+	/* Top Menu Click to Section */
+	$('.menu-item-has-children > a:not(".wpmenucart-contents")').on("click", function(e){
+		e.preventDefault();
+	});
+	$('.page_item_has_children > a:not(".wpmenucart-contents")').on("click", function(e){
+		e.preventDefault();
+	});
+	$('.gla_main_menu_content_menu a[href*=\\#]:not([href=\\#])').on("click", function(){
+		$('.gla_main_menu_content_menu a[href*=\\#]:not([href=\\#])').removeClass('active');
+		$(this).addClass('active');
+		$(".gla_main_menu_mobile").trigger('click');
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+	        || location.hostname == this.hostname) {
+
+	        var target = $(this.hash);
+	        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	           if (target.length) {
+	             $('html,body').animate({
+	                 scrollTop: target.offset().top
+	            }, 1000);
+	            return false;
+	        }
+	    }
+
+	});
 
 
 	$(window).load(function(){
