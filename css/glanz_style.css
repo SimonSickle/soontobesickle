@@ -121,7 +121,7 @@ html {
 	left: 0;
 }
 .gla_large_text {
-	font: 400 18px/30px Dosis, Arial;
+	font: 400 18px/30px Montserrat, Arial;
 }
 .gla_over {
 	width: 100%;
@@ -204,13 +204,13 @@ html {
 
 /*01.2 Titles*/
 h1.gla_h1_title {
-	font:900 44px Dosis, Arial;
+	font:900 44px Montserrat, Arial;
 	text-transform: uppercase;
 	line-height: 1.125;
 	margin-top: 0;
 }
 h2 {
-	font:400 24px Dosis, Arial;
+	font:400 24px Montserrat, Arial;
 	line-height: 1.125;
 	margin-top: 0;
 	color: #333;
@@ -219,10 +219,10 @@ h2 {
 	color: #fff;
 }
 .gla_great_titles h2 {
-	font:900 80px marsha, Arial;
+	font:900 80px 'Great Vibes', Arial;
 }
 .gla_middle_titles h2 {
-	font:400 70px/80px marsha, Dosis;
+	font:400 70px/80px 'Great Vibes';
 	margin-bottom: 60px;
 }
 
@@ -235,7 +235,7 @@ h2 {
 	letter-spacing: 0;
 }
 .gla_thin_titles h2 {
-	font:300 44px Dosis, Arial;
+	font:300 44px 'Great Vibes', Arial;
 	text-transform: uppercase;
 }
 .gla_sml_abs_title {
@@ -244,7 +244,7 @@ h2 {
 	background: #e5e5e5;
 	color: #333;
 	padding: 10px 20px;
-	font:400 20px/20px Dosis, Arial;
+	font:400 20px/20px Montserrat, Arial;
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
 	box-shadow: 0 0 20px rgba(0,0,0,.3);
 	transform:rotate(90deg);
@@ -287,7 +287,7 @@ h2:after {
 		background-size: 100px 9px;
 	}
 h3 {
-	font:italic 400 30px/40px Playfair Display, Arial;
+	font:italic 400 30px/40px Montserrat, Arial;
 	margin-bottom: 40px;
 }
 
@@ -317,7 +317,7 @@ h3 {
     margin-top: -10px;
 	}
 h4 {
-	font:italic 400 22px/30px Playfair Display, Arial;
+	font:italic 400 22px/30px Montserrat, Arial;
 	margin-bottom: 10px;
 }
 
@@ -1330,7 +1330,7 @@ header {
 	position: relative;
 	right: 0;
 	top: 0;
-	font: 400 18px/18px Dosis;
+	font: 400 18px/18px Montserrat;
 	float: right;
 }
 	.gla_default_menu ul {
@@ -1655,7 +1655,7 @@ ul.mega-menu {
 		font-size: 16px;
 		font-weight: normal;
 		right: 0;
-		font-family: Dosis;
+		font-family: Montserrat;
 	}
 	.gla_main_menu_icon b span {
 		-webkit-transition: all 0.5s;
@@ -1767,7 +1767,7 @@ ul.mega-menu {
 			} 
 
 		.gla_main_menu_content_menu a {
-			font:400 30px/38px Dosis, Arial;
+			font:400 30px/38px Montserrat, Arial;
 			display: block;
 			text-decoration: none;
 		}
@@ -1778,7 +1778,7 @@ ul.mega-menu {
 		}
 	
 		.gla_logo {
-			font:900 24px/18px Dosis, Arial;
+			font:900 24px/18px Montserrat, Arial;
 			color:#333;
 			text-transform: uppercase;
 			position: relative;
@@ -1817,7 +1817,7 @@ ul.mega-menu {
 			}
 		.gla_logo b {
 			display: block;
-			font:500 12px/18px Dosis, Arial;
+			font:500 12px/18px Montserrat, Arial;
 			position: relative;
 			-webkit-transition: all 0.2s;
 			-o-transition: all 0.2s;
@@ -2040,7 +2040,7 @@ ul.mega-menu {
 				opacity: 1;
 				text-transform: none;
 				font-weight:bold;
-				font: italic 400 14px/24px Playfair Display, Arial;
+				font: italic 400 14px/24px Montserrat, Arial;
 				top: 18px;
 			}
 			.gla_second_step .gla_logo_und {
@@ -2464,11 +2464,11 @@ ul.mega-menu {
 				font:italic 400 20px/20px marsha, Arial!important;
 			}
 		.gla_slide_title_great {
-			font:900 86px Dosis, Arial;
+			font:900 86px Montserrat, Arial;
 			line-height: 1.0625;
 		}
 		.gla_slide_title_middle {
-			font:900 56px Dosis, Arial;
+			font:900 56px Montserrat, Arial;
 			line-height: 1.0625;
 			text-transform: uppercase;
 			margin-bottom: 25px;
@@ -2478,7 +2478,7 @@ ul.mega-menu {
 
 		
 		.gla_slide_subtitle {
-			font:400 20px Dosis, Arial;
+			font:400 20px Montserrat, Arial;
 			text-transform: none;
 			line-height: 1.125;
 			margin-bottom: 20px;
@@ -2486,12 +2486,12 @@ ul.mega-menu {
 		}
 
 		.gla_slide_desq {
-			font:400 24px Dosis, Arial;
+			font:400 24px Montserrat, Arial;
 			line-height: 1.35417;
 			margin: 30px 0;
 		}
 		.gla_slide_desq_great {
-			font:500 24px Dosis, Arial;
+			font:500 24px Montserrat, Arial;
 			text-transform: uppercase;
 		}
 			.gla_slide_title_great:after {
@@ -2519,7 +2519,7 @@ ul.mega-menu {
 		position: absolute;
 		bottom: 40px;
 		text-decoration: none;
-		font:italic 400 14px/18px Playfair Display, Arial;
+		font:italic 400 14px/18px Montserrat, Arial;
 		color: #333;
 		width: 40px;
 		left: 50%;
@@ -2971,7 +2971,7 @@ ul.mega-menu {
 /*Badges*/
 .gla_badge_i_line1 {
 	position: absolute;
-	font: 400 80px/80px marsha, Dosis, Arial;
+	font: 400 80px/80px marsha, Montserrat, Arial;
 	color: #000;
 	width: 100%;
 	text-align: center;
@@ -2979,7 +2979,7 @@ ul.mega-menu {
 }
 .gla_badge_i_line2 {
 	position: absolute;
-	font: 400 80px/80px marsha, Dosis, Arial;
+	font: 400 80px/80px marsha, Montserrat, Arial;
 	color: #000;
 	width: 100%;
 	text-align: center;
@@ -3127,7 +3127,7 @@ ul.mega-menu {
 }
 .gla_flower2_name_l b,
 .gla_flower2_name_r b {
-	font:400 20px/20px Dosis;
+	font:400 20px/20px Montserrat;
 	position: relative;
 	display: block;
 }
@@ -3386,10 +3386,10 @@ video#video_background  {
 	}
 	.gla_menu_item b {
 		float: right;
-		font: italic 400 24px/24px Playfair Display, Arial;
+		font: italic 400 24px/24px Montserrat, Arial;
 	}
 	.gla_menu_item span {
-		font: 700 30px/30px Dosis, Arial;
+		font: 700 30px/30px Montserrat, Arial;
 	}
 .gla_menu_item p {
 	margin-bottom: 0;
@@ -3412,14 +3412,14 @@ video#video_background  {
 	margin: 0 30px;
 }
 .countdown-amount {
-	font: 400 60px/80px Playfair Display, Dosis, Arial;
+	font: 400 60px/80px Montserrat, Montserrat, Arial;
 	display: block;
 }
 .gla_countdown_gold .countdown-amount {
 	height: 150px;
 }
 .countdown-period {
-	font: italic 400 14px/14px Playfair Display, Arial;
+	font: italic 400 14px/14px Montserrat, Arial;
 }
 
 
@@ -3442,11 +3442,11 @@ video#video_background  {
     margin-top: -10px;
 	}
 	.gla_pricing_table h5 {
-		font: 700 40px/40px Dosis, Arial;
+		font: 700 40px/40px Montserrat, Arial;
 		margin-bottom: 30px;
 	}
 	.gla_pricing_price {
-		font: italic 400 30px/30px Playfair Display, Arial;
+		font: italic 400 30px/30px Montserrat, Arial;
 	}
 	.gla_pricing_table .btn {
 		margin: 30px 0;
@@ -3525,11 +3525,11 @@ video#video_background  {
 .gla_stat_item {
 	display: inline-block;
 	margin:0 15px;
-	font: 400 20px/24px Dosis, Arial;
+	font: 400 20px/24px Montserrat, Arial;
 	vertical-align: top;
 }
 .gla_stat_item b {
-	font: 600 48px/48px Dosis, Arial;
+	font: 600 48px/48px Montserrat, Arial;
 	float: left;
 	margin-right: 10px;
 }
@@ -3568,7 +3568,7 @@ video#video_background  {
 	margin-top: 0;
 }
 .gla_box_content p.gla_review_txt {
-	font: 400 16px/24px Dosis, Arial;
+	font: 400 16px/24px Montserrat, Arial;
 	margin-top: 20px;
 	padding: 0 20px;
 }
@@ -3732,7 +3732,7 @@ video#video_background  {
 	}
 		.gla_bottom_title p {
 			position: relative!important;
-			font:italic 400 18px Playfair Display, Arial;
+			font:italic 400 18px Montserrat, Arial;
 			text-transform: none;
 			margin-top: 10px;
 			margin-left: auto;
@@ -3761,12 +3761,12 @@ video#video_background  {
 			}
 		.gla_bottom_title h3 {
 			position: relative;
-			font: 700 24px Dosis, Arial;
+			font: 700 24px Montserrat, Arial;
 			margin-bottom: 0;
 		}
 		.gla_bottom_title h2 {
 			position: relative;
-			font: 700 34px Dosis, Arial;
+			font: 700 34px 'Great Vibes', Arial;
 			margin-bottom: 30px;
 		}
 			.gla_bottom_title h2:after {
@@ -3845,7 +3845,7 @@ video#video_background  {
 		z-index: 2;
 	}
 	.gla_icon_box h4 {
-		font:italic 400 16px/16px Playfair Display, Arial!important;
+		font:italic 400 16px/16px Montserrat, Arial!important;
 		color: #333;
 		margin-bottom: 25px;
 	}
@@ -3886,7 +3886,7 @@ video#video_background  {
 		}
 		.gla_icon_box h4 strong {
 			display: block;
-			font: 700 60px/60px Dosis, Arial;
+			font: 700 60px/60px Montserrat, Arial;
 			margin-bottom: 20px;
 		}
 	.gla_icon_box i {
@@ -3972,7 +3972,7 @@ video#video_background  {
 		}
 		.gla_testimonials b {
 			display: block;
-			font:500 20px/30px Dosis, Arial;
+			font:500 20px/30px Montserrat, Arial;
 			margin-bottom: 10px;
 		}
 
@@ -4154,7 +4154,7 @@ video#video_background  {
 .gla_team_box h4 b {
 	display: inline-block;
 	margin: 8px 0;
-	font:900 26px/38px Dosis, Arial;
+	font:900 26px/38px Montserrat, Arial;
 }
 .gla_team_box {
 	margin-bottom: 0;
@@ -4452,7 +4452,7 @@ video#video_background  {
 		}
 
 	.gla_news_title {
-		font:400 24px/32px Dosis, Arial;
+		font:400 24px/32px Montserrat, Arial;
 		display: block;
 		margin-bottom: 22px;
 		padding: 0 30px;
@@ -4569,7 +4569,7 @@ video#video_background  {
 	}
 	.gla_service_block h4 {
 		margin: 15px 0 0;
-		font:900 30px/30px Dosis, Arial;
+		font:900 30px/30px Montserrat, Arial;
 		text-transform: uppercase;
 	}
 	.gla_service_block .gla_simple_block {
@@ -4827,12 +4827,12 @@ footer {
 		color:#333;
 	}
 	.gla_port_title {
-		font:400 24px/28px Dosis, Arial,sans-serif;
+		font:400 24px/28px Montserrat, Arial,sans-serif;
 		display: block;
 		width: 100%;
 	}
 	.gla_port_subtitle {
-		font:400 18px/28px Dosis, Arial,sans-serif;
+		font:400 18px/28px Montserrat, Arial,sans-serif;
 		display: block;
 		width: 100%;
 	}
@@ -5059,7 +5059,7 @@ footer {
 	height: auto;
 }
 .gla_post_title h3 {
-	font:600 18px/32px Dosis, Arial;
+	font:600 18px/32px Montserrat, Arial;
 	text-transform: uppercase;
 	margin: 0;
 }
@@ -5118,7 +5118,7 @@ footer {
 	width: 100%;
 }
 	.widget h6 {
-		font: 600 18px/28px Dosis, Arial;
+		font: 600 18px/28px Montserrat, Arial;
 		text-transform: uppercase;
 		margin-bottom: 20px;
 	}
@@ -5474,7 +5474,7 @@ footer {
 	width: 100%;
 }
 .table_head {
-	font:600 18px/28px Dosis,Arial;
+	font:600 18px/28px Montserrat,Arial;
 	margin:10px 0 20px;
 	text-transform: uppercase;
 }
@@ -5773,7 +5773,7 @@ footer {
 }
 
 .tablet .gla_great_titles h2 {
-	font:900 56px Dosis, Arial;
+	font:900 56px Montserrat, Arial;
 }
 
 
@@ -5812,7 +5812,7 @@ footer {
 	right: 60px;
 }
 .mobile .gla_menu_item span {
-	font: 700 20px/20px Dosis, Arial;
+	font: 700 20px/20px Montserrat, Arial;
 }
 .mobile .gla_menu_item b {
 	float: none;
@@ -5856,24 +5856,24 @@ footer {
 	right: 15px;
 }
 .gla_slide_title {
-	font:400 40px Dosis, Arial;
+	font:400 40px Montserrat, Arial;
 	width: 100%;
 	text-align: center;
 }
 .gla_slide_title {
-	font:400 40px Dosis, Arial;
+	font:400 40px Montserrat, Arial;
 	width: 100%;
 	text-align: center;
 }
 	.gla_slide_title span {
-		font:italic 400 40px/40px Playfair Display, Arial!important;
+		font:italic 400 40px/40px Montserrat, Arial!important;
 	}
 
 	.gla_slide_title:after {
 		margin: 20px auto;
 	}
 .gla_slide_desq {
-	font:400 18px Dosis, Arial;
+	font:400 18px Montserrat, Arial;
 	text-align: center;
 }
 .gla_slide_txt,
@@ -5891,7 +5891,7 @@ footer {
 	padding: 0 25px;
 }
 .gla_great_titles h2 {
-	font:900 36px Dosis, Arial;
+	font:900 36px Montserrat, Arial;
 	text-align: center;
 }
 	.gla_great_titles h2:after {
@@ -5962,7 +5962,7 @@ header nav.gla_transp_nav {
 }
 
 .gla_middle_titles h2 {
-	font:900 30px/30px Dosis, Arial;
+	font:900 30px/30px Montserrat, Arial;
 	margin-bottom: 50px;
 }
 .gla_icon_boxes {
@@ -6007,7 +6007,7 @@ header nav.gla_transp_nav {
 	margin-left: 20px;
 }
 h3 {
-	font:italic 400 20px/30px Playfair Display, Arial
+	font:italic 400 20px/30px Montserrat, Arial
 }
 .gla_portfolio_footer_grey:after,
 .gla_portfolio_footer_white:after {
@@ -6162,10 +6162,10 @@ header nav.active .gla_logo {
 }
 /*Portfolio*/
 .gla_port_title {
-	font: 400 18px/24px Dosis, Arial,sans-serif;
+	font: 400 18px/24px Montserrat, Arial,sans-serif;
 }
 .gla_port_subtitle {
-	font: 400 14px/22px Dosis, Arial,sans-serif;
+	font: 400 14px/22px Montserrat, Arial,sans-serif;
 }
 /*Text Align*/
 .mobile-text-left {
@@ -6249,3 +6249,7 @@ header nav.active .gla_logo {
 	}
 }
 /*Responsive end*/
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
